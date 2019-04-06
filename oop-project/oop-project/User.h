@@ -28,7 +28,7 @@ private:
 	string rank;
 public:
 	string getRank();
-
+	
 	Scout(string id, string name, string date, string section, string address, string rank);
 };
 
@@ -48,7 +48,7 @@ class Scouter :public User
 {
 private:
 	string rank;
-
+	
 public:
 	string getRank();
 	Scouter(string id, string name, string date, string section, string address, string rank);
