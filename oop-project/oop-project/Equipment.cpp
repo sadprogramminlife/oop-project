@@ -142,7 +142,7 @@ string Equipment::getItemName()
 
 string Equipment::getBrand()
 {
-	return; this->brand;
+	return this->brand;
 }
 
 string Equipment::getItemType()
