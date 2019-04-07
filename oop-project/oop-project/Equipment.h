@@ -42,7 +42,7 @@ private:
 public:
 	string getTentSize();
 	string getTentType();
-	string getNumbrofDoors();
+	string getNumberfDoors();
 	string getIsDoubleLayer();
 	string getColour();
 	string getEquipmentInfo();

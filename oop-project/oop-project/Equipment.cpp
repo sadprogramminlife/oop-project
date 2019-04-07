@@ -90,6 +90,31 @@ Lantern::Lantern(string itemID, string itemName, string brand, string itemType, 
 	this->lanternSize = lanternSize;
 }
 
+string Tent::getTentSize()
+{
+	return this->tentSize;
+}
+
+string Tent::getTentType()
+{
+	return this->tentType;
+}
+
+string Tent::getNumberfDoors()
+{
+	return this->numberOfDoors;
+}
+
+string Tent::getIsDoubleLayer()
+{
+	return this->isDoubleLayer;
+}
+
+string Tent::getColour()
+{
+	return this->colour;
+}
+
 string Tent::getEquipmentInfo()
 {
 	return getEquipment()+string("|"+this->tentSize+"|"+this->tentType+"|"+this->numberOfDoors+"|"+this->isDoubleLayer+"|"+this->colour+"\n");
@@ -105,7 +130,37 @@ Tent::Tent(string itemID, string itemName, string brand, string itemType, string
 	this->colour = colour;
 }
 
+string Equipment::getItemID()
+{
+	return this->itemID;
+}
+
 string Equipment::getItemName()
 {
 	return this->itemName;
+}
+
+string Equipment::getBrand()
+{
+	return; this->brand;
+}
+
+string Equipment::getItemType()
+{
+	return this->itemType;
+}
+
+string Equipment::getDateOfPurchase()
+{
+	return this->dateOfPurchase;
+}
+
+string Equipment::getCondition()
+{
+	return this->condition;
+}
+
+string Equipment::getStatus()
+{
+	return this->status;
 }
