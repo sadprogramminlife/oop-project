@@ -48,6 +48,8 @@ public:
 	string getEquipmentInfo();
 	Tent(string itemID, string itemName, string brand, string itemType, string dateOfPurchase, string  condition,
 		string status,string tentSize,string tentType,string numbrofDoors,string isDoubleLayer,string colour);
+	
+	
 };
 class Stove :public Equipment
 {

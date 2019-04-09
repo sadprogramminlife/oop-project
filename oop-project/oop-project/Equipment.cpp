@@ -130,6 +130,8 @@ Tent::Tent(string itemID, string itemName, string brand, string itemType, string
 	this->colour = colour;
 }
 
+
+
 string Equipment::getItemID()
 {
 	return this->itemID;
